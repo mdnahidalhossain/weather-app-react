@@ -18,7 +18,7 @@ function Weather() {
 
     async function getWeatherData(cityName) {
         try {
-            const weatherApi = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=e579f1a527c8bb3c1a3adbf982620587&units=metric`);
+            const weatherApi = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=YOUR_API_KEY`);
             setWeatherData(weatherApi.data)
         } catch (error) {
             alert("City not found.")
