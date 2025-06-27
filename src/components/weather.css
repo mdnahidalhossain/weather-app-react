@@ -21,6 +21,7 @@
     justify-content: space-between;
     /* background-color: red; */
     height: 400px;
+    align-items: center;
 }
 
 #weather-icon {
@@ -87,6 +88,7 @@ h2, h3 {
 .weather-box-content-1 h4 {
     font-size: 25;
 }
+
 
 h2 {
     color: #31C8EF;
