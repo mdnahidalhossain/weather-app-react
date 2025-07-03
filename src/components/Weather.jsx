@@ -96,7 +96,7 @@ function Weather() {
                         <div className="divider"></div>
                         <div className='box weather-box-content-2'>
                             <div className='title-box'>
-                                <img src="src/images/clear-sky.png" alt="logo-icon" id='logo-icon' />
+                                <img src="public/images/clear-sky.png" alt="logo-icon" id='logo-icon' />
                                 Weather Lite
                             </div>
                             <div className='data'>
